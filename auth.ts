@@ -9,7 +9,7 @@ export const config = {
     Google(
       { clientId: process.env.AUTH_GOOGLE_ID, clientSecret: process.env.AUTH_GOOGLE_SECRET }
     ),
-  ],
+  ], 
   basePath: "/auth",
   callbacks: {
     authorized({ request, auth }) {
