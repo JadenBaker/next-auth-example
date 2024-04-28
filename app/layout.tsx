@@ -7,10 +7,11 @@ import Header from "@/components/header"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "NextAuth.js Example",
-  description:
-    "This is an example site to demonstrate how to use NextAuth.js for authentication",
-}
+  title: "Wasatch Permitting",
+  description: "Wasatch Permitting is a permitting company in Utah. We help individuals and businesses with their electrical permitting needs.",
+  keywords: ["permitting", "electrical", "utah", "solar"],
+  icons : { icon : [ '/favicon.ico' ] },
+};
 
 export default function RootLayout({ children }: React.PropsWithChildren) {
   return (
@@ -26,4 +27,4 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
       </body>
     </html>
   )
-}
+};
